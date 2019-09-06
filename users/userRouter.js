@@ -1,6 +1,6 @@
 const express = require('express');
 const userDB = require('./userDb.js');
-const postDB = require('../posts/postDb.js')
+const postDB = require('../posts/postDb.js');
 
 const router = express.Router();
 
@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
 			res.status(201).json(result)
 		})
 		.catch(err => {
-			res.status(500).json({ error: 'Error saving to the database' })
+			res.status(500).json({ error: 'Error saving user to the database' })
 		})
 });
 
@@ -28,7 +28,7 @@ router.post('/:id/posts', (req, res) => {
 			res.status(201).json(result)
 		})
 		.catch(err => {
-			res.status(500).json({ error: 'Error saving to the database' })
+			res.status(500).json({ error: 'Error saving user to the database' })
 		})
 });
 
