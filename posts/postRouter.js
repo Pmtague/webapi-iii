@@ -1,29 +1,29 @@
-const express = 'express';
-const userDB = require('../users/userDb.js');
-const postDB = require('../posts/postDb.js');
+// const express = 'express';
+// const userDB = require('../users/userDb.js');
+// const postDB = require('../posts/postDb.js');
 
-const router = express.Router();
+// // const router = express.Router();
 
-router.get('/', (req, res) => {
+// router.get('/', (req, res) => {
 
-});
+// });
 
-router.get('/:id', (req, res) => {
+// router.get('/:id', (req, res) => {
 
-});
+// });
 
-router.delete('/:id', (req, res) => {
+// router.delete('/:id', (req, res) => {
 
-});
+// });
 
-router.put('/:id', (req, res) => {
+// router.put('/:id', (req, res) => {
 
-});
+// });
 
-// custom middleware
+// // custom middleware
 
-function validatePostId(req, res, next) {
+// function validatePostId(req, res, next) {
 
-};
+// };
 
-module.exports = router;
+// module.exports = router;
